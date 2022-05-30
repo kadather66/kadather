@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [ DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AX4XfWgDgULA9nbfIxJKryWlKbhgMRd6M_aU3__ugwfnkGPELqyUBXJE42jH8ST-NKHeiQ" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname) ]
   pull_request:
     branches: [ main ]
 
